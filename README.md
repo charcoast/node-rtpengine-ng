@@ -3,7 +3,7 @@ node-rtpengine-ng
 A Node client library for rtpengine.
 
 This is the rewrite of [node-rtpengine](https://github.com/wtcross/node-rtpengine) library written by [Tyler Cross](https://github.com/wtcross), to comply with latest JS standarts.
-Additionaly this library implements DTMF listener socket option from rtpmengine, to be able to receive DTMF events from calls taht are going through it.
+Additionaly this library implements DTMF listener socket option from rtpmengine, to be able to receive DTMF events from calls that are going through it.
 
 The intent of this library is to make it easy to build tools that work with [rtpengine](https://github.com/sipwise/rtpengine). Rtpengine has a UDP-based API that involves sending a message of the following form:
 
