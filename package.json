@@ -1,8 +1,8 @@
 {
-  "name": "rtpengine",
-  "version": "0.1.0",
+  "name": "node-rtpengine-ng",
+  "version": "0.2.0",
   "description": "A Node client for rtpengine.",
-  "author": "Tyler Cross <tcross@bandwidth.com>",
+  "author": "Tyler Cross <tyler@cross.solutions>, Eugene Voityuk <eugene.voityuk@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": "0.10.x",
@@ -10,35 +10,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:wtcross/node-rtpengine.git"
+    "url": "git@github.com:sarumjanuch/node-rtpengine-ng.git"
   },
   "bugs": {
-    "url": "https://github.com/wtcross/node-rtpengine/issues"
+    "url": "https://github.com/sarumjanuch/node-rtpengine-ng/issues"
   },
-  "homepage": "https://github.com/wtcross/node-rtpengine",
+  "homepage": "https://github.com/sarumjanuch/node-rtpengine-ng",
   "main": "lib/Client",
   "bin": "bin/rtpengine",
-  "scripts": {
-    "test": "grunt"
-  },
-  "devDependencies": {
-    "chai": "^2.1.0",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-jshint": "^0.11.0",
-    "grunt-jscs": "^1.5.0",
-    "grunt-mocha-istanbul": "^2.3.1",
-    "sinon": "^1.12.2",
-    "sinon-as-promised": "^2.0.3"
-  },
+  "scripts": {},
+  "devDependencies": {},
   "dependencies": {
     "bencode": "^2.0.1",
-    "bluebird": "^2.9.13",
+    "bluebird": "^3.7.2",
     "commander": "^2.6.0",
     "joi": "^6.8.1",
-    "lodash": "^3.3.1",
-    "node-uuid": "^1.4.2",
-    "param-case": "^1.1.1"
+    "lodash": "^4.17.20",
+    "uuid": "^8.3.1"
   }
 }
