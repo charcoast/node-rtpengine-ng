@@ -18,7 +18,9 @@
   "homepage": "https://github.com/sarumjanuch/node-rtpengine-ng",
   "main": "lib/Client",
   "bin": "bin/rtpengine",
-  "scripts": {},
+  "scripts": {
+    "dev": "node examples/dtmfListener.js"
+  },
   "devDependencies": {},
   "dependencies": {
     "bencode": "^2.0.1",
